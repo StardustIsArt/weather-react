@@ -1,0 +1,106 @@
+.App {
+  font-family: "Walter Turncoat", cursive;
+  text-align: center;
+}
+
+.container {
+  font-family: "Walter Turncoat", cursive;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 675px;
+}
+
+.weather-wrapper {
+  border: solid 2px #dadde1;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(46, 46, 46);
+  color: #dadde1;
+}
+
+.search {
+  padding-bottom: 15px;
+}
+
+.weather img {
+  margin-right: 5px;
+}
+
+.temperature {
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  font-size: 16px;
+}
+
+.units {
+  display: inline;
+  position: relative;
+  font-size: 16px;
+  vertical-align: top;
+  top: 14px;
+}
+
+.temperature strong {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.weather .active {
+  color: #dfdfdf;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather .active:hover {
+  text-decoration: none;
+}
+
+.weather-info {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.city-info {
+  text-align: right;
+  vertical-align: top;
+}
+
+.city {
+  color: #dfdfdf;
+  font-weight: 400px;
+}
+
+.time-and-descrip {
+  color: #dfdfdf;
+}
+
+.row {
+  --bs-gutter-x: 1rem;
+}
+
+.weather-forcast {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weather-forcast-date {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+
+.weather-forcast-temperature {
+  font-size: 15px;
+}
+
+.weather-forcast-temperature-max {
+  color: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-transform: capitalize;
+}
