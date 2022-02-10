@@ -1,20 +1,19 @@
-.App {
-  font-family: "Walter Turncoat", cursive;
-  text-align: center;
+body {
+  background: linear-gradient(66deg, rgb(34, 88, 82) 0%, rgb(54, 21, 93) 100%);
 }
 
 .container {
-  font-family: "Walter Turncoat", cursive;
+  font-family: Roboto, arial, sans-serif;
   padding: 20px;
   margin: 15px auto;
-  max-width: 675px;
+  max-width: 750px;
 }
 
 .weather-wrapper {
   border: solid 2px #dadde1;
   border-radius: 10px;
   padding: 15px;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(41, 23, 54);
   color: #dadde1;
 }
 
@@ -30,19 +29,19 @@
   display: inline;
   vertical-align: middle;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .units {
   display: inline;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   vertical-align: top;
   top: 14px;
 }
 
 .temperature strong {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 400;
 }
 
@@ -85,12 +84,12 @@
 }
 
 .weather-forcast-date {
-  font-size: 16px;
+  font-size: 18px;
   color: #dfdfdf;
 }
 
 .weather-forcast-temperature {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .weather-forcast-temperature-max {
@@ -103,4 +102,9 @@ ul {
 
 li {
   text-transform: capitalize;
+}
+
+small {
+  color: #dadde1;
+  text-align: center;
 }
