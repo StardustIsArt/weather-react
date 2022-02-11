@@ -1,0 +1,9 @@
+{
+  "name": "weather-react",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
